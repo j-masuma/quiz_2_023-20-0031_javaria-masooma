@@ -34,3 +34,23 @@ const person=[
 
 console.log(`Person ${person[0].id} name is ${person[0].personName} having salary ${person[0].personIncome}`);
 console.log(`Person ${person[1].id} name is ${person[1].personName} having salary ${person[1].personIncome}`);
+
+
+//===============task-3========================//
+
+
+const object={
+    id: 1,
+    personName: "Fahad",
+    personAge: "23",
+    personIncome: "2000000"
+}
+
+//sample output
+
+console.log(`Properties are below:`);
+
+console.log(object.id);
+console.log(object.personName);
+console.log(object.personAge);
+console.log(object.personIncome);
